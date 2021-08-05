@@ -20,7 +20,7 @@ public class Amazon {
 		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).build().perform();
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().sendKeys("Vivo").sendKeys(Keys.ENTER).build().perform();
 		a.moveToElement(driver.findElement(By.xpath("(//li[contains(@id, 'Vivo')]/span/a/div)"))).click().build().perform();
-				
+		System.out.println("Git is updated");
 	}
 
 }
